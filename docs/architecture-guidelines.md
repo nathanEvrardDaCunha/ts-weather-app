@@ -31,3 +31,4 @@ Folder should be one of the following when possible:
 -   utils
 -   docs
 -   src
+-   pages

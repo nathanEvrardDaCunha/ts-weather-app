@@ -11,7 +11,7 @@ Comment type should be one of the following:
 -   DEPRECATED
 -   DESIGN
 
-### Contents
+## Contents
 
 Comment content should follow thoses conventions:
 

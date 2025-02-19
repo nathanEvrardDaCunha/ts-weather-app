@@ -1,6 +1,8 @@
 # Git Guidelines
 
-## Type
+## Commit
+
+### Commit Type
 
 Commit type should be one of the following:
 
@@ -11,7 +13,7 @@ Commit type should be one of the following:
 -   chore
 -   test
 
-## Scope
+### Commit Scope
 
 Commit scope should be one of the following:
 
@@ -24,7 +26,7 @@ Commit scope should be one of the following:
 -   config
 -   utils
 
-## Description
+### Commit Description
 
 Commit description should follow thoses conventions:
 
@@ -32,15 +34,27 @@ Commit description should follow thoses conventions:
 -   follow with what changed
 -   be less or equal to 30 characters
 
-## Body & Footer
+### Commit Body & Footer
 
 Commit body and footer aren't required in this small project.
 
-## Branchs
+## Branch
 
-Commit branch should be one of the following:
+### Branch Type
+
+Branch type should be one of the following:
 
 -   main
 -   develop
 -   feat/x
 -   fix/x
+
+### Branch Description
+
+Branch description should follow thoses covnentions:
+
+-   Lowercase
+-   Less or equal to 30 characters
+-   Maximum of three words lentgh
+-   Divided by hypen "-"
+-   Use english letters
