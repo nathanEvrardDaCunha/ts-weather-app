@@ -30,7 +30,7 @@ Commit description should follow thoses conventions:
 
 -   start with a verb to tell how thing change
 -   follow with what changed
--   be less than 30 characters
+-   be less or equal to 30 characters
 
 ## Body & Footer
 
