@@ -37,25 +37,12 @@
             name="twitter:description"
             content="Get real time weather data accross the world for free"
         />
+
+        <!-- TODO: Make layout.js which import everything at once. -->
+        <script src="src/layout/header/header-component.js" defer></script>
     </head>
     <body>
-        <header>
-            <!-- DESIGN: Facilitate website navigation. -->
-            <nav>
-                <h1>Wat</h1>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Solution</a></li>
-                    <li><a href="#">Compagny</a></li>
-                </ul>
-            </nav>
-
-            <!-- DESIGN: Call the user to try the solution. -->
-            <section>
-                <h2>Get real time city data for free.</h2>
-                <a href="#"><button>Start your research</button></a>
-            </section>
-        </header>
+        <header-component></header-component>
 
         <main>
             <!-- DESIGN: Showcase the solution perks. -->
