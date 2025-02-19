@@ -12,6 +12,7 @@ The project purpose is drill on some personal weaknesses.
 -   PROJECT: Architecture inconsistency
 -   PROJECT: Missing README
 -   PROJECT: Inconsistent comment
+-   PROJECT: Lacking professionalism
 
 #### Solutions
 
@@ -19,6 +20,7 @@ The project purpose is drill on some personal weaknesses.
 -   Document architecture best practices and guidelines to follow
 -   Write meaningful README to showcase the project
 -   Document comment best practices and guidelines to follow
+-   Impersonate fictive compagny
 
 ### HTML
 
