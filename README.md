@@ -27,10 +27,12 @@ The project purpose is drill on some personal weaknesses.
 #### Weaknesses
 
 -   HTML: Missing naming convention documentation
+-   HTML: Lacking modular and reusable components
 
 #### Solutions
 
 -   Document HTML naming convention to follow
+-   Create custom web components with JavaScript
 
 ### CSS
 
