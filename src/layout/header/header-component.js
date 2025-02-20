@@ -31,4 +31,6 @@ class Header extends HTMLElement {
     }
 }
 
+// NOTE: Might need to make it dynamically receive inputs for the call-to-action inside it.
+// NOTE: If made dynamic, I will need to input the same inputs on all page with header defeating it's purpose.
 customElements.define('header-component', Header);
