@@ -42,6 +42,7 @@
         <script src="src/layout/header/header-component.js" defer></script>
         <script src="src/layout/footer/footer-component.js" defer></script>
         <script src="src/components/image-text-component.js" defer></script>
+        <script src="src/components/key-point-component.js" defer></script>
     </head>
     <body>
         <header-component></header-component>
@@ -82,41 +83,42 @@
             <!-- DESIGN: Convince users of compagny credibility. -->
             <article>
                 <h2>Trusted by millions of peoples.</h2>
-                <section>
-                    <h3>Long term expertise.</h3>
-                    <strong>1506732</strong>
-                    <p>Searchs since 2022.</p>
-                </section>
 
-                <section>
-                    <h3>Important workload capacities.</h3>
-                    <strong>14532</strong>
-                    <p>Searchs per month.</p>
-                </section>
+                <key-point-component
+                    title="Long term expertise."
+                    statistic="1506732"
+                    description="Searchs since 2022."
+                ></key-point-component>
 
-                <section>
-                    <h3>Reputation for quality.</h3>
-                    <strong>4.7/5</strong>
-                    <p>Trustpilot Score.</p>
-                </section>
+                <key-point-component
+                    title="Important workload capacities."
+                    statistic="14532"
+                    description="Searchs per month."
+                ></key-point-component>
 
-                <section>
-                    <h3>Biggest weather database.</h3>
-                    <strong>3000+</strong>
-                    <p>City data available.</p>
-                </section>
+                <key-point-component
+                    title="Reputation for quality."
+                    statistic="4.7/5"
+                    description="Trustpilot Score."
+                ></key-point-component>
 
-                <section>
-                    <h3>Real time world wide data.</h3>
-                    <strong>190+</strong>
-                    <p>Country monitored.</p>
-                </section>
+                <key-point-component
+                    title="Biggest weather database."
+                    statistic="3000+"
+                    description="City data available."
+                ></key-point-component>
 
-                <section>
-                    <h3>Back up by giants.</h3>
-                    <strong>50+</strong>
-                    <p>Business funding.</p>
-                </section>
+                <key-point-component
+                    title="Real time world wide data."
+                    statistic="190+"
+                    description="Country monitored."
+                ></key-point-component>
+
+                <key-point-component
+                    title="Back up by giants."
+                    statistic="50+"
+                    description="Business funding."
+                ></key-point-component>
             </article>
 
             <!-- DESIGN: Incite user to try the solution. -->
