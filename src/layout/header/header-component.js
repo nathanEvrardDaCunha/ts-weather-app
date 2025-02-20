@@ -4,19 +4,19 @@ headerTemplate.innerHTML = `
 <header>
     <!-- DESIGN: Facilitate website navigation. -->
     <nav>
-        <h1>Wat</h1>
+        <h1>WeatherAdvanced</h1>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Solution</a></li>
-            <li><a href="#">Compagny</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Weather Platform</a></li>
+            <li><a href="#">About Us</a></li>
         </ul>
     </nav>
 
     <!-- DESIGN: Call the user to try the solution. -->
-    <section>
-        <h2>Get real time city data for free.</h2>
-        <a href="#"><button>Start your research</button></a>
-    </section>
+    <article>
+        <h2>Access precision weather data for any location worldwide</h2>
+        <a href="#"><button>Check your local forecast</button></a>
+    </article>
 </header>
 `;
 

@@ -4,27 +4,27 @@ footerTemplate.innerHTML = `
 <footer>
     <!-- DESIGN: Allow users to contact the compagny. -->
     <address>
-        <h2>Compagny address.</h2>
+        <h2>Corporate Headquarters</h2>
         <ul>
             <li>
-                Contact:
-                <a href="mailto:contact@watinc.com"
-                    >contact@watinc.com</a
+                General Inquiries:
+                <a href="mailto:contact@weatheradvancedinc.com"
+                    >contact@weatheradvancedinc.com</a
                 >
             </li>
             <li>
-                Issue:
-                <a href="mailto:technical-support@watinc.com"
-                    >technical-support@watinc.com</a
+                Technical Support:
+                <a href="mailto:technical-support@weatheradvancedinc.com"
+                    >technical-support@weatheradvancedinc.com</a
                 >
             </li>
-            <li>Location: 14 St NYC - US</li>
-            <li>Phone: (800-752-9987)</li>
+            <li>Location: 14 West 23rd Street, New York, NY 10010</li>
+            <li>Toll-Free: +1 (800) 752-9987</li>
         </ul>
     </address>
 
     <!-- DESIGN: Prevent legal copyright cases. -->
-    <small>© 2024 WatInc. All rights reserved.</small>
+    <small>© 2024 WeatherAdvanced Technologies Inc. All rights reserved.</small>
 </footer>
 `;
 
