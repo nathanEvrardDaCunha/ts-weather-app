@@ -45,6 +45,7 @@ The project purpose is drill on some personal weaknesses.
 -   CSS: Lacking mobile support
 -   CSS: Lacking app responsivness
 -   CSS: Inconsistent color
+-   CSS: Lacking fluid platforms support
 
 #### Solutions
 
@@ -53,6 +54,7 @@ The project purpose is drill on some personal weaknesses.
 -   Develop project with Mobile first approach
 -   Implement responsive tactics for mobile and desktop transition
 -   Choose color based on relevant color palette
+-   implement responsiveness by prefering fluid implementation.
 
 ### JS/TS
 
