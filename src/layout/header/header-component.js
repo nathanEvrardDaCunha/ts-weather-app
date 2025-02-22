@@ -11,12 +11,6 @@ headerTemplate.innerHTML = `
             <li><a href="#">About Us</a></li>
         </ul>
     </nav>
-
-    <!-- DESIGN: Call the user to try the solution. -->
-    <article>
-        <h2>Access precision weather data for any location worldwide</h2>
-        <a href="#"><button>Check your local forecast</button></a>
-    </article>
 </header>
 `;
 
