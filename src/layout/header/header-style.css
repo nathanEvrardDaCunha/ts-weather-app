@@ -1,0 +1,109 @@
+/* DESIGN: Navigation when burger menu opened. */
+.header--open {
+    display: none;
+}
+
+.navigation--open {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.navigation__items--open {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+/* DESIGN: Navigation when burger menu closed. */
+.header {
+    height: fit-content;
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__item:not(last-child) {
+    display: none;
+}
+
+.navigation__item:last-child {
+    display: block;
+}
+
+/* DESIGN: 750px is an absolute unit which fit the current content size instead of inputting every possible screen size. */
+@media screen and (min-width: 750px) {
+    .navigation__item:not(last-child) {
+        display: block;
+    }
+
+    .navigation__item:last-child {
+        display: none;
+    }
+}
+
+/* DESIGN: Used on all headers. */
+.navigation__title {
+    font-family: 'Shrikhand-Regular';
+    font-size: clamp(1.25rem, 5cqi, 1.75rem);
+}
+
+.navigation__link {
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--color-light--text);
+    transform: scale(1);
+    transition: transform 0.3s 0s ease;
+    font-size: clamp(1.25rem, 2cqb, 1.75rem);
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+    text-decoration: underline;
+}
+
+.navigation__link:active {
+    text-decoration: none;
+    transform: scale(0.85);
+}
+
+.header__button {
+    cursor: pointer;
+    width: 1.5rem;
+    transform: scale(1);
+    display: inline-block;
+    transition: transform 0.3s 0s ease;
+}
+
+.header__button:hover,
+.header__button:focus {
+    transform: scale(1.15);
+}
+
+.header__button:active {
+    transform: scale(0.85);
+}

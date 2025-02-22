@@ -18,6 +18,11 @@
     src: url('../fonts/UbuntuMono-Regular.ttf') format('opentype');
 }
 
+@font-face {
+    font-family: 'Shrikhand-Regular';
+    src: url('../fonts/Shrikhand-Regular.ttf') format('opentype');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
