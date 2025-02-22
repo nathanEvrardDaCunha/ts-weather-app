@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-block: 1rem;
+    width: 100%;
+}
+
+.address {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.address__title {
+    margin: 0;
+}
+
+.address__items {
+    padding-inline-start: 2rem;
+    width: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.address__item {
+    width: 100%;
+}
+
+.address__email-link {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
