@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'UbuntuMono-Bold';
+    src: url('../fonts/Ubuntumono-Bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'UbuntuMono-Italic';
+    src: url('../fonts/UbuntuMono-Italic.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'UbuntuMono-BoldItalic';
+    src: url('../fonts/UbuntuMono-BoldItalic.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'UbutunMono-Regular';
+    src: url('../fonts/UbuntuMono-Regular.ttf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'UbutunMono-Regular', sans-serif;
+}
