@@ -5,7 +5,7 @@
         'main main main'
         'footer footer footer';
 
-    background-color: var(--color-light--background);
+    background-color: var(--color-background);
 }
 
 .header-layout {
@@ -13,7 +13,7 @@
     padding-inline: clamp(2rem, 5cqi, 5rem);
     overflow: hidden;
     backdrop-filter: blur(25px);
-    border-bottom: solid var(--color-light--text) 1px;
+    border-bottom: solid var(--color-text) 1px;
     position: sticky;
     top: 0;
 }
@@ -27,11 +27,12 @@
     /* background-color: cyan; */
 }
 
-.footer {
+.footer-layout {
     grid-area: footer;
-    padding-inline: clamp(2rem, 5cqi, 3rem);
-    padding-block: 2rem;
+    padding-inline: clamp(2rem, 5cqi, 5rem);
     overflow: hidden;
+    border-top: solid 1px var(--color-text);
+    /* background-color: var */
 
     /* background-color: rgb(217, 255, 0); */
 }
